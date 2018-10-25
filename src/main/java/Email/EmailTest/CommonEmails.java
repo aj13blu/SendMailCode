@@ -16,7 +16,7 @@ public class CommonEmails {
 		email.setSmtpPort(465);
 		email.setAuthenticator(new DefaultAuthenticator("automation2018.QA@gmail.com", "automation@2018"));
 		email.setSSLOnConnect(true);
-		email.setFrom("ajinkyabhobad.t@gmail.com");
+		email.setFrom("");
 		email.setSubject("TestMail");
 		email.setMsg("This is a test mail ... :-)");
 		email.addTo("foo@bar.com");

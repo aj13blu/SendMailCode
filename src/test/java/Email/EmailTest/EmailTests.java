@@ -25,9 +25,9 @@ public class EmailTests
 			//driver.get("http://www.google.com");
 	    	driver.get("https://webmail.ixiasolutions.com/");
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("//input[@id='rcmloginuser']")).sendKeys("ajinkya.bhobad@ixiasolutions.com");
+	    	driver.findElement(By.xpath("//input[@id='rcmloginuser']")).sendKeys("");//Add email ID
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("//input[@id='rcmloginpwd']")).sendKeys("");//
+	    	driver.findElement(By.xpath("//input[@id='rcmloginpwd']")).sendKeys("");//Add password
 	    	Thread.sleep(3000);
 	    	driver.findElement(By.xpath("//input[@id='rcmloginsubmit']")).click(); 
 	    	Thread.sleep(3000);
