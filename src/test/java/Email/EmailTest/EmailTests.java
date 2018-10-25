@@ -27,7 +27,7 @@ public class EmailTests
 	    	Thread.sleep(3000);
 	    	driver.findElement(By.xpath("//input[@id='rcmloginuser']")).sendKeys("ajinkya.bhobad@ixiasolutions.com");
 	    	Thread.sleep(3000);
-	    	driver.findElement(By.xpath("//input[@id='rcmloginpwd']")).sendKeys("Ixia@12345");
+	    	driver.findElement(By.xpath("//input[@id='rcmloginpwd']")).sendKeys("");
 	    	Thread.sleep(3000);
 	    	driver.findElement(By.xpath("//input[@id='rcmloginsubmit']")).click(); 
 	    	Thread.sleep(3000);
